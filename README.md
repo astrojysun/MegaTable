@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6584841.svg)](https://doi.org/10.5281/zenodo.6584841)
 [![astropy](http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat)](http://www.astropy.org/)
 
-This repository contains the source code for generating rich multiwavelength data tables (a.k.a. the "mega-tables") for [the PHANGS team](https://sites.google.com/view/phangs/home). The current state of this repository matches the **version 4.2** internal release of the PHANGS mega-table products. The latest published version of the PHANGS mega-table products is **version 4.0** (in the [PHANGS CADC archive](https://www.canfar.net/storage/vault/list/phangs/RELEASES/Sun_etal_2022)).
+This repository contains the source code for generating rich multiwavelength data tables (a.k.a. the "mega-tables") for [the PHANGS team](https://sites.google.com/view/phangs/home). The current state of this repository matches the **version 4.3** internal release of the PHANGS mega-table products. The latest published version of the PHANGS mega-table products is **version 4.0** (in the [PHANGS CADC archive](https://www.canfar.net/storage/vault/list/phangs/RELEASES/Sun_etal_2022)).
 
 The structure and content of these mega-tables are described in the following papers:
 
@@ -16,7 +16,7 @@ Below is a figure from [Sun et al. (2022)](https://ui.adsabs.harvard.edu/abs/202
 
 ## Code description
 
-**[Important note] If you want to use the PHANGS mega-table products but do *not* plan to ingest more data into them or make your own mega-tables, you likely do not need the code in this repository. The PHANGS mega-table products (available in the CADC archive, see link above) can be read in and analyzed with `astropy.table.Table`.**
+**[Important note] If you want to use the PHANGS mega-table products but do *not* plan to ingest more data into them or to make your own mega-tables, you likely do not need the code in this repository. The PHANGS mega-table products (available in the CADC archive, see link above) can be read in and analyzed with `astropy.table.Table`.**
 
 This repository offers a python module named `mega_table`, which provides the core infrastructure for mega-table creation, manipulation, and input/output. Most of the tools in this module are offered through three python classes:
 + `mega_table.table.RadialMegaTable`: Assemble measurements in radial bins with a given width

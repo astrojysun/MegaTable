@@ -760,11 +760,11 @@ def add_pixel_stats_to_table(
             if verbose:
                 print("    All input file found")
             with fits.open(bm0_file) as hdul:
-                hdr = hdul[0].header.copy()
-                hdr.remove('BUNIT')
                 bm0 = hdul[0].data * u.Unit(hdul[0].header['BUNIT'])
             with fits.open(sm0_file) as hdul:
                 sm0 = hdul[0].data * u.Unit(hdul[0].header['BUNIT'])
+                hdr = hdul[0].header.copy()
+                hdr.remove('BUNIT')
             with fits.open(sem0_file) as hdul:
                 sem0 = hdul[0].data * u.Unit(hdul[0].header['BUNIT'])
             with fits.open(sew_file) as hdul:
