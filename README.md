@@ -10,6 +10,20 @@ This package has been used for generating mega-tables for [the PHANGS team](http
 
 The current state of this repository matches the **version 4.3** internal release of the PHANGS mega-table products. The latest published version of the PHANGS mega-table products is **version 4.0** (in the [PHANGS CADC archive](https://www.canfar.net/storage/vault/list/phangs/RELEASES/Sun_etal_2022)).
 
+## Installation
+
+Install from a local clone:
+
+```bash
+pip install .
+```
+
+Install from GitHub:
+
+```bash
+pip install "git+https://github.com/astrojysun/MegaTable.git"
+```
+
 ## Documentation
 
 Read the documentation [here](https://astrojysun.github.io/MegaTable/).

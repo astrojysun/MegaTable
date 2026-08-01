@@ -14,6 +14,21 @@ Below is a figure from [Sun et al. (2022)](https://ui.adsabs.harvard.edu/abs/202
 ![Figure 1 in Sun et al. (2022)](https://content.cld.iop.org/journals/1538-3881/164/2/43/revision1/ajac74bdf1_lr.jpg "Figure 1 in Sun et al. (2022)")
 
 
+## Installation
+
+Install from a local clone:
+
+```bash
+pip install .
+```
+
+Install from GitHub:
+
+```bash
+pip install "git+https://github.com/astrojysun/MegaTable.git"
+```
+
+
 ## Dependencies
 
 `mega_table` depends on the following packages:
