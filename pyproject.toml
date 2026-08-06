@@ -25,9 +25,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/astrojysun/MegaTable"
+Homepage = "https://github.com/PhangsTeam/MegaTable"
 Documentation = "https://astrojysun.github.io/MegaTable/"
-Repository = "https://github.com/astrojysun/MegaTable"
 
 [tool.setuptools.packages.find]
 include = ["mega_table*"]

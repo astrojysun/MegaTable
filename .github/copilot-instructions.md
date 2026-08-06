@@ -2,7 +2,7 @@
 
 ## Commands
 
-- This repository does **not** define project automation files such as `pyproject.toml`, `setup.py`, `pytest.ini`, `tox.ini`, or `Makefile`. Do not invent package, lint, or test commands that are not present in the repo.
+- This repository defines project metadata in the `pyproject.toml` file.
 - The committed runnable entry points are the pipeline scripts under `pipelines/`:
   - `python pipelines/make_base.py`
   - `python pipelines/make_phangsalma.py`
@@ -10,7 +10,7 @@
   - `python pipelines/make_gauss.py`
   - `python pipelines/make_combined.py`
   - `python pipelines/gen_column_descr.py`
-- There is no repo-defined single-test command or lint command. If you add tests or tooling later, document the exact invocation here instead of assuming a standard Python layout.
+- Do not invent package, lint, or test commands that are not present in the repo. If you add tests or tooling later, document the exact invocation here instead of assuming a standard Python layout.
 
 ## High-level architecture
 
